@@ -12,7 +12,6 @@ import math
 
 def mijn_functie_2(invoer_lijst):
     uitvoer = []
-
     for a in invoer_lijst:
         if a == 12.3:
             b = 3
@@ -23,9 +22,8 @@ def mijn_functie_2(invoer_lijst):
         elif a == 100.20:
             b = 20
         else:
-            continue  # onbekende waarde, overslaan
+            continue  
 
-        # Berekeningen uitvoeren en afronden naar beneden
         optellen = math.floor(a + b)
         aftrekken = math.floor(a - b)
 
@@ -41,9 +39,5 @@ def mijn_functie_2(invoer_lijst):
 
     return uitvoer
 
-
-
 mijn_lijst = [12.3, 12.2, 10.5, 100.20]
 print(mijn_functie_2(mijn_lijst))
-
-

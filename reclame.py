@@ -50,9 +50,9 @@ print(meervoudig(mijn_lijst))
 
 
 def combinatie(invoer_lijst_2):
-korte_lijst = laag_en_hoog(invoer_lijst_2)
-uitvoer = mijn_functie_2(korte_lijst[0], korte_lijst[1])
-return uitvoer
+    korte_lijst = laag_en_hoog(invoer_lijst_2)
+    uitvoer = mijn_functie_2(korte_lijst[0], korte_lijst[1])
+    return uitvoer
 
 invoer_lijst_2 = [220, 430, 125, 160, 205, 90, 345]
 
